@@ -1,0 +1,16 @@
+url: http://www.gdhydec.com
+
+title: 畅途
+
+keywords: 畅途
+
+description: 畅途
+
+relative_permalinks: false
+
+notice: notice
+
+notice-info: 暂无
+
+exclude:
+  - README.md
