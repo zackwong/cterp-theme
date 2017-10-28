@@ -38,8 +38,8 @@ title: 派单
           <th>2017年10月15日</th>
           <td>安全检测</td>
           <td>
-            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-money" style="margin-bottom:6px">待派人</button>
-            <div class="modal fade" id="ABC-TYH-889-678-money" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-pairen" style="margin-bottom:6px">待派人</button>
+            <div class="modal fade" id="ABC-TYH-889-678-pairen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -54,7 +54,7 @@ title: 派单
                           <p><input type="text" class="form-control" id="inputEmail3"></p>
                         </div>
                       </div>
-                      <div class="modal-footer"><button type="button" class="btn btn-success">确认提交</button></div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
                     </div>
                   </div>
                 </div>
@@ -62,35 +62,275 @@ title: 派单
             </div>
           </td>
           <td>
-            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-piaoju" style="margin-bottom:6px">未开具</button>
-            <div class="modal fade" id="ABC-TYH-889-678-piaoju" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-yinhuan" style="margin-bottom:6px">未提交</button>
+            <div class="modal fade" id="ABC-TYH-889-678-yinhuan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">票据情况</h4>
+                    <h4 class="modal-title">隐患排查情况</h4>
                   </div>
                   <div class="modal-body">
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
-                          <h4>票据号</h4>
-                          <p><input type="text" class="form-control" id="inputEmail3" placeholder="收据填收据号，发票填发票号"></p>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <h4>票据备注</h4>
+                          <h4>快递号</h4>
                           <p><input type="text" class="form-control" id="inputEmail3"></p>
                         </div>
                       </div>
-                      <div class="modal-footer"><button type="button" class="btn btn-success">确认提交</button></div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-tixi" style="margin-bottom:6px">未提交</button>
+            <div class="modal fade" id="ABC-TYH-889-678-tixi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">体系文件情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>快递号</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-ziping" style="margin-bottom:6px">未提交</button>
+            <div class="modal fade" id="ABC-TYH-889-678-ziping" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">自评报告情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>快递号</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-zhenggai" style="margin-bottom:6px">未填写</button>
+            <div class="modal fade" id="ABC-TYH-889-678-zhenggai" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">现场整改情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>现场整改时间</h4>
+                          <p><input type="datetime" class="form-control" id="inputEmail3" placeholder="2017年1月1日则填20170101"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-anjian" style="margin-bottom:6px">未提交</button>
+            <div class="modal fade" id="ABC-TYH-889-678-anjian" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">提交自评报告（安监）情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>快递号</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-xiehui" style="margin-bottom:6px">未提交</button>
+            <div class="modal fade" id="ABC-TYH-889-678-xiehui" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">提交自评报告（安全协会）情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>快递号</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-pingshen" style="margin-bottom:6px">未填写</button>
+            <div class="modal fade" id="ABC-TYH-889-678-pingshen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">现在评审时间情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>现在评审时间</h4>
+                          <p><input type="datetime" class="form-control" id="inputEmail3" placeholder="2017年1月1日则填20170101"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-tongguo" style="margin-bottom:6px">未填写</button>
+            <div class="modal fade" id="ABC-TYH-889-678-tongguo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">评审通过情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>评审结果</h4>
+                          <p>
+                            <select class="form-control">
+                              <option>通过</option>
+                              <option>不通过</option>
+                            </select>
+                          </p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-ziliao" style="margin-bottom:6px">未提交</button>
+            <div class="modal fade" id="ABC-TYH-889-678-ziliao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">提交整改资料情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>快递号</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-gongshi" style="margin-bottom:6px">未填写</button>
+            <div class="modal fade" id="ABC-TYH-889-678-gongshi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">公示时间情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>公示时间</h4>
+                          <p><input type="datetime" class="form-control" id="inputEmail3" placeholder="2017年1月1日则填20170101"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-paibian" style="margin-bottom:6px">未填写</button>
+            <div class="modal fade" id="ABC-TYH-889-678-paibian" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">牌匾情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>牌匾时间</h4>
+                          <p><input type="datetime" class="form-control" id="inputEmail3" placeholder="2017年1月1日则填20170101"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>无</td>
           <td>待收款</td>
           <td>
             <button class="btn btn-success" data-toggle="modal" data-target="#ABC-TYH-889-678" style="margin-bottom:6px">查看</button>
@@ -180,7 +420,7 @@ title: 派单
                           <p><input type="text" class="form-control" id="inputEmail3"></p>
                         </div>
                       </div>
-                      <div class="modal-footer"><button type="button" class="btn btn-success">确认提交</button></div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
                     </div>
                   </div>
                 </div>
@@ -210,7 +450,7 @@ title: 派单
                           <p><input type="text" class="form-control" id="inputEmail3"></p>
                         </div>
                       </div>
-                      <div class="modal-footer"><button type="button" class="btn btn-success">确认提交</button></div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
                     </div>
                   </div>
                 </div>
