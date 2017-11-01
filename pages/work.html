@@ -39,6 +39,93 @@ title: 派单
           <th>2017年10月15日</th>
           <td>安全检测</td>
           <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-money-1" style="margin-bottom:6px">待收款</button>
+            <div class="modal fade" id="ABC-TYH-889-678-money-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">收款情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>剩余款项：10000元</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>银行账号</h4>
+                          <p>
+                            <select class="form-control">
+                              <option>农商银行／45454545454518／老板名</option>
+                              <option>农业银行／44445450312121／畅途</option>
+                              <option>工商银行／49089915158892／畅途</option>
+                            </select>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>收款金额</h4>
+                          <p>
+                            <div class="input-group">
+                              <div class="input-group-addon">￥</div>
+                              <input type="number" class="form-control" id="exampleInputAmount">
+                              <div class="input-group-addon">元</div>
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>收款日期</h4>
+                          <p><input type="datetime" class="form-control" id="inputEmail3" placeholder="2017年1月1日则填20170101"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>财务备注</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-piaoju-1" style="margin-bottom:6px">未开具</button>
+            <div class="modal fade" id="ABC-TYH-889-678-piaoju-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">票据情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>票据号</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3" placeholder="收据填收据号，发票填发票号"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>票据备注</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
             <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-pairen" style="margin-bottom:6px">待派人</button>
             <div class="modal fade" id="ABC-TYH-889-678-pairen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -182,7 +269,93 @@ title: 派单
               </div>
             </div>
           </td>
-          <td>未付款</td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-money-2" style="margin-bottom:6px;margin-right:6px">待收款</button>
+            <div class="modal fade" id="ABC-TYH-889-678-money-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">二期收款情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>剩余款项：10000元</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>银行账号</h4>
+                          <p>
+                            <select class="form-control">
+                              <option>农商银行／45454545454518／老板名</option>
+                              <option>农业银行／44445450312121／畅途</option>
+                              <option>工商银行／49089915158892／畅途</option>
+                            </select>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>收款金额</h4>
+                          <p>
+                            <div class="input-group">
+                              <div class="input-group-addon">￥</div>
+                              <input type="number" class="form-control" id="exampleInputAmount">
+                              <div class="input-group-addon">元</div>
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>收款日期</h4>
+                          <p><input type="datetime" class="form-control" id="inputEmail3" placeholder="2017年1月1日则填20170101"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>财务备注</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-piaoju-2" style="margin-bottom:6px">未开具</button>
+            <div class="modal fade" id="ABC-TYH-889-678-piaoju-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">二期票据情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>票据号</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3" placeholder="收据填收据号，发票填发票号"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>票据备注</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td>
             <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-anjian" style="margin-bottom:6px">未提交</button>
             <div class="modal fade" id="ABC-TYH-889-678-anjian" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -290,7 +463,93 @@ title: 派单
               </div>
             </div>
           </td>
-          <td>未付款</td>
+          <td>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-money-3" style="margin-bottom:6px;margin-right:6px">待收款</button>
+            <div class="modal fade" id="ABC-TYH-889-678-money-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">尾款收款情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>剩余款项：10000元</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>银行账号</h4>
+                          <p>
+                            <select class="form-control">
+                              <option>农商银行／45454545454518／老板名</option>
+                              <option>农业银行／44445450312121／畅途</option>
+                              <option>工商银行／49089915158892／畅途</option>
+                            </select>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>收款金额</h4>
+                          <p>
+                            <div class="input-group">
+                              <div class="input-group-addon">￥</div>
+                              <input type="number" class="form-control" id="exampleInputAmount">
+                              <div class="input-group-addon">元</div>
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>收款日期</h4>
+                          <p><input type="datetime" class="form-control" id="inputEmail3" placeholder="2017年1月1日则填20170101"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>财务备注</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-piaoju-3" style="margin-bottom:6px">未开具</button>
+            <div class="modal fade" id="ABC-TYH-889-678-piaoju-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">三期票据情况</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>票据号</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3" placeholder="收据填收据号，发票填发票号"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <h4>票据备注</h4>
+                          <p><input type="text" class="form-control" id="inputEmail3"></p>
+                        </div>
+                      </div>
+                      <div style="text-align:right"><button type="button" class="btn btn-success">确认提交</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td>
             <button class="btn btn-warning" data-toggle="modal" data-target="#ABC-TYH-889-678-ziliao" style="margin-bottom:6px">未提交</button>
             <div class="modal fade" id="ABC-TYH-889-678-ziliao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -369,7 +628,7 @@ title: 派单
               </div>
             </div>
           </td>
-          <td>待收款</td>
+          <td>未收款</td>
           <td>
             <button class="btn btn-success" data-toggle="modal" data-target="#ABC-TYH-889-678" style="margin-bottom:6px">查看</button>
             <div class="modal fade" id="ABC-TYH-889-678" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
