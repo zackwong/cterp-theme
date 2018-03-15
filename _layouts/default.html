@@ -31,17 +31,14 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="{% if page.category == 'bookmark' %}active{% endif %}"><a href="/index.html">进行中合同</a></li>
-            <li class="{% if page.category == 'procedure' %}active{% endif %}"><a href="/procedure/">合同流程</a></li>
-            <li class="{% if page.category == 'finish' %}active{% endif %}"><a href="/finish/">已完成合同</a></li>
-            <li class="{% if page.category == 'settings' %}active{% endif %}"><a href="/settings/">账号管理</a></li>
+            <li class="{% if page.category == 'home' %}active{% endif %}"><a href="{{ site.url }}">进行中合同</a></li>
+            <li class="{% if page.category == 'procedure' %}active{% endif %}"><a href="{{ site.url }}/procedure/">合同流程</a></li>
+            <li class="{% if page.category == 'finish' %}active{% endif %}"><a href="{{ site.url }}/finish/">已完成合同</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="content">
-      {{ content }}
-    </div>
+    {{ content }}
     <hr>
     <p class="container text-center text-muted">Copyright © 2011-2018 {{ site.title }} 保留所有权利</p>
     <script src="/assets/jquery.min.js"></script>
